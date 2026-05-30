@@ -9,9 +9,9 @@ app.use(express.json());
 
 const client = new Client({
 
-    host: "YOUR_RDS_ENDPOINT",
+    host: "login-db.ccnkyk040s4h.us-east-1.rds.amazonaws.com",
     user: "postgres",
-    password: "YourPassword",
+    password: "Jaanukanna411",
     database: "login",
     port: 5432,
     ssl: {
